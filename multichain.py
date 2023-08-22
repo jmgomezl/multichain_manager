@@ -35,10 +35,10 @@ class MultiChain:
 def main():
     # Configuración
     rpcuser = "multichainrpc"
-    rpcpasswd = "3KNkrGKCFfpkRTUqg9rrPyzizyCm2Aj6VuYFvn7fVwbn"
-    rpchost = "20.10.164.130"
-    rpcport = "8342"
-    chainname = "test1"
+    rpcpasswd = "PASSWORD"
+    rpchost = "URL"
+    rpcport = "PORT"
+    chainname = "CHAINNAME"
 
     # Instanciar la clase
     multichain = MultiChain(rpcuser, rpcpasswd, rpchost, rpcport, chainname)
